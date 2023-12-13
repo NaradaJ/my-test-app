@@ -1,0 +1,9 @@
+.header{
+    background-color: hotpink;
+    align-items: center;
+    display: flex;
+    position: sticky;
+    color: blue;
+    top: 0;
+    z-index: 100;
+}
