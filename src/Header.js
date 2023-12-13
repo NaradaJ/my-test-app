@@ -14,12 +14,10 @@ const Header = () => {
       <div className='header_search'>
         <input type='text' className='header_search_input' />
       </div>
-      <Link to= "/" className='header_links'>
         <div className='header_options'>
           <span className='header_optionLineone'>Hello, Welcome to TechBiz</span>
           <span className='header_optionLinetwo'>Sign In or Sign Out</span>
         </div>
-      </Link>  
     </nav>
   );
 };
