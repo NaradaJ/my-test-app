@@ -1,9 +1,56 @@
 .header{
-    background-color: hotpink;
+    background-color: #2a3133;
     align-items: center;
     display: flex;
     position: sticky;
-    color: blue;
+    color: #c3bcc2;
     top: 0;
     z-index: 100;
+}
+
+.header_logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-top: auto;
+    object-fit: contain;
+}
+
+.header_search{
+    display: flex;
+    flex: 1;
+}
+
+
+
+.header_search_input{
+    height: 10px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header_links{
+    color: red;
+    text-decoration: none;
+}
+
+.header_options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px ;
+    font-size: small;
+}
+
+.header_optionLineone{
+    font-size: 10px;
+
+}
+
+
+.header_optionLinetwo{
+    color: blue;
+    font-size: 13px;
+    font-weight: 800;
 }
